@@ -8,7 +8,7 @@ import CityPage from "./pages/city-page"
 const App = () => {
   return (
     <BrowserRouter>
-      <ThemeProvider>
+      <ThemeProvider defaultTheme="dark">
         <Layout>
           <Routes>
             <Route path="/" element={<WeatherDashboard/>} />
